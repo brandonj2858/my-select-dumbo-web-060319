@@ -4,6 +4,7 @@ select = []
 while i < collection.length
 if yield(collection[i])
   select << collection[i]
+end
 i = i + 1
 end 
 select
